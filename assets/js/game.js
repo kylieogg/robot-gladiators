@@ -1,26 +1,26 @@
-// var playerName = 'Clank McKrank';
-var playerName = window.prompt("What is your robot's name?");
-var playerHealth = 100;
-var playerAttack = 10;
-var playerMoney = 10;
+// let playerName = 'Clank McKrank';
+let playerName = window.prompt("What is your robot's name?");
+let playerHealth = 100;
+let playerAttack = 10;
+let playerMoney = 10;
 
-var enemyNames = ["Roberto", "Amy Android", "Robo Trumble"];
+let enemyNames = ["Roberto", "Amy Android", "Robo Trumble"];
 console.log(enemyNames);
 
 // You can also log multiple values at once like this
 console.log(playerName, playerAttack, playerHealth);
 
-var enemyName = "Roberto";
-var enemyHealth = 50;
-var enemyAttack = 12;
+let enemyName = "Roberto";
+let enemyHealth = 50;
+let enemyAttack = 12;
 
 //fight function
-var fight = function() {
+let fight = function() {
     // Alert players that they are starting the round
     window.alert("Welcome to Robot Gladiators!");
 
     //ask player if they'd like to fight or run
-    var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
+    let promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
    
     // if player chooses to fight, then fight
     if (promptFight === "fight" || promptFight === "FIGHT") {
