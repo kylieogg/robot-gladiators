@@ -8,7 +8,7 @@ let enemyNames = ["Roberto", "Amy Android", "Robo Trumble"];
 let enemyHealth = 50;
 let enemyAttack = 12;
 // for loop
-for(var i = 0; i < enemyNames.length; i++) {
+for(let i = 0; i < enemyNames.length; i++) {
     fight(enemyNames[i]);
 }
 
@@ -76,4 +76,6 @@ let fight = function(enemyName) {
 };
 
 // run fight function to start game
-// fight();
+for(let i = 0; i < enemyNames.length; i++) {
+    fight(enemyNames[i]);
+}
