@@ -74,5 +74,7 @@ let fight = function(enemyName) {
 
 // run fight function to start game
 for(let i = 0; i < enemyNames.length; i++) {
-    fight(enemyNames[i]);
+    let pickedEnemyName = enemyNames[i];
+    enemyHealth = 50;
+    fight(pickedEnemyName);
 }
