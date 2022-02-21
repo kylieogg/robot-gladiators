@@ -1,5 +1,22 @@
 /* GAME FUNCTIONS */
 
+// function to set name
+let getPlayerName = function() {
+    let name = "";
+
+while (name === "" || name === null) {
+    name = prompt("what is your robot's name?");
+}
+
+    console.log("Your robot's name is" + name);
+    return name;
+};
+
+/* GAME INFORMATION / VARIABLES */
+let playerInfo = {
+    name: getPlayerName(),
+}
+
 // function to generate a random numeric value
 let randomNumber = function(min, max) {
     let value = Math.floor(Math.random() * (max - min + 1) + min);
